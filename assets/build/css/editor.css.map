@@ -1,0 +1,1 @@
+{"version":3,"file":"css/editor.css","mappings":";;;AACA;EACI,4CAA4C","sources":["webpack://expodev/./src/sass/editor.scss"],"sourcesContent":["//Editor styles\r\n* {\r\n    font-family: \"Lato\", 'helvetica', sans-serif;\r\n}"],"names":[],"sourceRoot":""}

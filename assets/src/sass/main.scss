@@ -1,0 +1,44 @@
+@import '~sass-mq';
+
+@use 'mq' as * with (
+  $breakpoints: (
+    mobile:  320px,
+    tablet:  740px,
+    desktop: 980px,
+    wide:    1300px
+  )
+);
+
+ 
+
+/*Esto es importantne para hacer hover sobre el menu con dropdown */
+.nav-item:hover .dropdown-menu:not(.show) {
+  display: block;
+}
+
+/*Esto es iportante para la pagina de posts*/
+.thumbnail-image-blog-posts {
+  height: 14.5rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Esto es iportante para la pagina de un solo post*/
+.thumbnail-image-post-page {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*Esto es importante para las fechas de los posts*/
+.updated:not(.published) {
+  display: none;
+}
+
+/*Esto es importante para la paginacion*/
+.page-numbers.current > span {
+  background-color: gray;
+  color: white;
+}
+
